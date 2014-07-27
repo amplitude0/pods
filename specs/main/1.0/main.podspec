@@ -17,7 +17,7 @@ Pod::Spec.new do |s|
 
   s.name         = "main"
   s.version      = "1.0"
-  s.summary      = “first “version
+  s.summary      = "first version"
 
   s.description  = <<-DESC
                    A longer description of main in Markdown format.
