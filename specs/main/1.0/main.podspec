@@ -17,7 +17,7 @@ Pod::Spec.new do |s|
 
   s.name         = "main"
   s.version      = "1.0"
-  s.summary      = ""
+  s.summary      = “first “version
 
   s.description  = <<-DESC
                    A longer description of main in Markdown format.
@@ -39,7 +39,7 @@ Pod::Spec.new do |s|
   #  Popular ones are 'MIT', 'BSD' and 'Apache License, Version 2.0'.
   #
 
-  s.license      = "MIT (example)"
+  s.license      = “None”
   # s.license      = { :type => "MIT", :file => "FILE_LICENSE" }
 
 
