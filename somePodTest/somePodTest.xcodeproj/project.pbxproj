@@ -16,6 +16,7 @@
 		66232A0E19854ABD008E80DF /* libsomePodTest.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 662329F619854ABD008E80DF /* libsomePodTest.a */; };
 		66232A1419854ABD008E80DF /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 66232A1219854ABD008E80DF /* InfoPlist.strings */; };
 		66232A1619854ABD008E80DF /* somePodTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 66232A1519854ABD008E80DF /* somePodTestTests.m */; };
+		66232A5D1985583B008E80DF /* SomeController.m in Sources */ = {isa = PBXBuildFile; fileRef = 66232A5C1985583B008E80DF /* SomeController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		66232A1119854ABD008E80DF /* somePodTestTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "somePodTestTests-Info.plist"; sourceTree = "<group>"; };
 		66232A1319854ABD008E80DF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		66232A1519854ABD008E80DF /* somePodTestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = somePodTestTests.m; sourceTree = "<group>"; };
+		66232A5B1985583B008E80DF /* SomeController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SomeController.h; sourceTree = "<group>"; };
+		66232A5C1985583B008E80DF /* SomeController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SomeController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -113,6 +116,8 @@
 				662329FE19854ABD008E80DF /* somePodTest.h */,
 				66232A0019854ABD008E80DF /* somePodTest.m */,
 				662329FC19854ABD008E80DF /* Supporting Files */,
+				66232A5B1985583B008E80DF /* SomeController.h */,
+				66232A5C1985583B008E80DF /* SomeController.m */,
 			);
 			path = somePodTest;
 			sourceTree = "<group>";
@@ -225,6 +230,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				66232A0119854ABD008E80DF /* somePodTest.m in Sources */,
+				66232A5D1985583B008E80DF /* SomeController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
